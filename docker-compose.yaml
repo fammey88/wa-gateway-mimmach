@@ -1,4 +1,3 @@
-# docker-compose.yaml
 services:
   wa-gateway:
     container_name: "wa-gateway"
@@ -10,6 +9,6 @@ services:
     ports:
       - "5001:5001"
     environment:
-      - KEY=secret # optional, make your own api key
-      - WEBHOOK_BASE_URL="https://fammey88.konek.web.id/mima.php" # optional, if you need webhook
-      - REDIS_URL= # optional, if you want store session to redis instead of local files
+      - KEY=secret
+      - WEBHOOK_BASE_URL=https://fammey88.konek.web.id/mima.php  # Hapus tanda kutip di sini
+      - REDIS_URL=
