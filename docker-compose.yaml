@@ -10,5 +10,5 @@ services:
       - "5001:5001"
     environment:
       - KEY=secret
-      - WEBHOOK_BASE_URL=https://fammey88.konek.web.id/mima.php  # Hapus tanda kutip di sini
+      - WEBHOOK_BASE_URL="https://fammey88.konek.web.id/mima.php"
       - REDIS_URL=
